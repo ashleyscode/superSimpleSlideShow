@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Courier;
+    position: relative;
+}
+
+#headline{
+	margin: 20px auto 0px auto;
+}
+
+#headline h1{
+	text-align: center;
+}
+
+#photoFrame {
+    height: 400px;
+    width: 700px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin: 50px auto 100px auto;
+}
+
+#photoFrame img {
+    width: 700px;
+    height: 400px;
+    text-align: center;
+}
+
+#prev,
+#next {
+    position: absolute;
+    top: 278px;
+    cursor: pointer;
+}
+
+#prev {
+    left: 214px;
+}
+
+#next {
+    right: 214px;
+}
